@@ -1,50 +1,66 @@
 body {
   display: flex;
   flex-wrap: wrap;
-  background: #efefef;
+  background: #eeeeff;
 }
 
-#btn {
-  width: 200px;
-  height: 200px;
-  background: #ef454a;
-  border-radius: 50%;
-  margin: 30px auto;
-  text-align: center;
-  line-height: 200px;
-  color: #fff;
-  font-weight: bold;
-  font-size: 42px; 
-  cursor: pointer;
-  box-shadow: 0 10px 0 #d1483e;
-  user-select: none;
+div {
+  align: center;
 }
 
-#btn:hover {
-  opacity: 0.9;
-}
-
-
-#btn:active {
-  box-shadow: 0 5px 0 #d1483e;
-  margin-top: 35px;
-  
-}
-
-#reset {
-  width: 90px;
-  height: 30px;
-  background: #ccc;
-  margin: auto;
-  text-align: center;
-  line-height: 30px;
-  border-radius: 20%;
+.labelclass {
+  margin: 10px auto 0 auto;
+  width: 560px;
+  height: 60px;
+  background: #ddf;
+  background: lightcyan;
+  padding: 0 20px;
+  font-size: 24px;
+  line-height: 60px;
+  color: #225;
   border-style: solid;
-  border-width: 2px;
-  cursor: pointer;
-  opacity: 0.5;
-  user-select: none;
+  border-width: 1px;
+  border-radius: 10px;
 }
-#reset:hover {
+
+.itemclass {
+  margin: 10px auto 20px auto;
+  width: 600px;
+  height: 90px;
+  background: #ddf;
+  background: lightcyan;
+  text-align: center;
+  font-size: 32px;
+  line-height: 90px;
+  color: #225;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+}
+
+.btnclass {
+  margin: 10px auto 20px auto;
+  width: 600px;
+  height: 90px;
+  background: #ffe;
+  /* background: lightcyan; */
+  text-align: center;
+  font-size: 32px;
+  line-height: 90px;
+  color: #333;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  cursor: pointer;
+  opacity: 0.9;
+  box-shadow: 0 10px 0 #333;
+}
+
+.btnclass:hover {
   opacity: 1;
+}
+
+.btnclass:active {
+  box-shadow: 0 5px 0 #333;
+  margin-top: 15px;
 }
